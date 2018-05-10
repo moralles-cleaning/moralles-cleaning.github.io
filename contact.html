@@ -126,7 +126,7 @@
                                 <div class="single-info">
                                     <div class="icon-box"><i class="flaticon-gps"></i></div>
                                     <h4>Lacation</h4>
-                                    <div class="text">PO Box 16122 Collins Street West Victoria 8007 Canada</div>
+                                    <div class="text">Metro Detroit, MI.</div>
                                 </div>
                             </div>
                             <div class="col-md-6 col-sm-6 col-xs-12">
@@ -140,14 +140,7 @@
                                 <div class="single-info">
                                     <div class="icon-box"><i class="flaticon-message"></i></div>
                                     <h4>Email</h4>
-                                    <div class="text">info@templatepath.com <br /> morales.cleaning.web@gmail.com</div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                <div class="single-info">
-                                    <div class="icon-box"><i class="flaticon-globe"></i></div>
-                                    <h4>Website</h4>
-                                    <div class="text">www.moralescleaningservicesllc.com</div>
+                                    <div class="text">morales.cleaning.web@gmail.com</div>
                                 </div>
                             </div>
                         </div>
@@ -159,22 +152,27 @@
             <div class="container">
                 <div class="title-top centred">Send Message</div>
                 <div class="sec-title centred"><h2>Get In Touch</h2></div>
-                <form id="contact-form" name="contact_form" class="default-form" action="http://html.tonatheme.com/2018/Cleanxer/inc/sendmail.php" method="post">
+                <form id="contact-form" name="contact_form" class="default-form" method="POST" class="contact-form" id="" action="https://formspree.io/morales.cleaning.web@gmail.com">
                     <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <input type="text" name="form_name" value="" placeholder="Name" required="">
+                        <div class="input-field">
+                            <input type="text" name="_gotcha" style="display:none"/>
+                            <input type="hidden" name="_subject" value="New contact submission!" />
+                            <input type="hidden" name="_next" value="https://moralles-cleaning.github.io/contact-success.html" />
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                            <input type="email" name="form_email" value="" placeholder="Email" required="">
+                            <input type="text" name="name" value="" placeholder="Name" required="">
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                            <input type="text" name="form_Phone" value="" placeholder="Phone" required="">
+                            <input type="email" name="_replyto" value="" placeholder="Email" required="">
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                            <input type="text" name="form_Subject" value="" placeholder='Subject' required="">
+                            <input type="text" name="phone" value="" placeholder="Phone" required="">
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <input type="text" name="subject" value="" placeholder='Subject' required="">
                         </div>
                         <div class="col-md-12 col-sm-12 col-xs-12">
-                            <textarea placeholder="Message" name="form_message" required=""></textarea>
+                            <textarea placeholder="Message" name="message" required=""></textarea>
                         </div>
                     </div>
                     <div class="contact-btn centred"><button type="submit" class="btn-one" data-loading-text="Please wait...">Send Message</button></div>
