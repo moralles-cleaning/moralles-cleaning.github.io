@@ -1,0 +1,86 @@
+
+/*============
+
+This file only contains the theme color schemes, (not the style ) If you want to change the color
+ schemes of the theme 
+just change the color code  and rgba value. The whole theme color will be changed.
+
+===========*/
+
+
+
+
+
+/* Filter the 'background' value classes*/
+
+.switcher .switch_btn button,.btn-one,.btn-two:hover,.pricing-section .single-table.active .btn-two, .pricing-section 
+.single-table:hover .btn-two,.main-footer .logo-wideget .footer-social li a:hover,.scroll-to-top,.sidebar li a.active, .sidebar li a:hover,
+.gallery-section .post-filter li.active span,.team-details-content .content-style-one .team-social li a.active, .team-details-content 
+.content-style-one .team-social li a:hover,.shop-content .top-content .right-content a.active, .shop-content .top-content .right-content 
+a:hover,.shop-product .content-layer .btn-two:hover,.shop-section .price-text button,.noUi-connect,.checkout-section .customer:before, 
+.checkout-section .coupon:before,.link-btn li a:hover, .link-btn li a.active,.blog-single .post-share-option .post-share li a.active, 
+.blog-single .post-share-option .post-share li a:hover,.onoffswitch-label,.onoffswitch-checkbox:checked + .onoffswitch-label,
+.main-menu .navbar-header .navbar-toggle .icon-bar
+{
+	background: #3ecebe;
+}
+
+
+/* background style two */
+
+.single-item-overlay .img-box .overlay
+
+{
+	background: rgba(62, 206, 190, 0.6);
+}
+
+
+/* Filter the 'color' value classes*/
+
+.main-menu .navigation > li.current > a,.main-menu .navigation > li:hover > a, .main-menu .navbar-collapse > ul li.dropdown:hover 
+.dropdown-btn span:before,.main-menu .navigation > li > ul > li:hover > a,.main-header .cart-box a i:before,.title-top,.btn-one:hover,
+h3 a:hover, h4 a:hover, h5 a:hover,.pricing-section .single-table .top-content .text,.news-section .lower-content li span,
+.main-footer .list li a:hover,.footer-bottom a:hover,.single-item-overlay .content li a:hover, .main-menu .navbar-collapse > 
+ul li.dropdown.current .dropdown-btn span:before,.tesimonial-page .single-item .icon-box i:before,.error-section .error-title i:before,
+.gallery-section .single-item-overlay .content li a:hover,a:hover,.team-details-content .content-style-two .list li:before,
+.single-shop .product-content .price,.product-discription .tab-title li.active,.cart-section .cart-table tbody tr .sub-total,
+.cart-section .cart-totals .text.order span,.checkout-section .customer a, .checkout-section .coupon a,.checkout-section .order-info 
+.price.color,.checkout-section .payment-info .payment-option  .checkbox a,.blog-single .blog-single-content .content-text i:before,
+.contact-section .contact-info .icon-box i:before
+
+ {
+	color:#3ecebe;
+}
+
+/* Filter the 'border color' value classes*/
+
+.main-menu .navigation > li > ul > li > a,.main-menu .navigation > li > ul,.btn-one:hover,.btn-one,.btn-two:hover,
+.pricing-section .single-table.active .btn-two, .pricing-section .single-table:hover .btn-two,input:focus, textarea:focus,
+.team-details-content .content-style-one .team-social li a.active, .team-details-content .content-style-one .team-social li a:hover,
+.shop-content .top-content .right-content a.active, .shop-content .top-content .right-content a:hover,.noUi-horizontal .noUi-handle,
+.product-discription .tab-title li.active,.blog-single .post-share-option .post-share li a.active, .blog-single .post-share-option 
+.post-share li a:hover
+
+{
+  border-color:#3ecebe;
+}
+
+
+
+/* change the theme logo for your own color schemes */
+
+.logo-box {
+    background: url(../../images/logo/logo1.png) no-repeat 9% 100%;
+}
+
+.footer-logo{
+  background: url(../../images/footer/logo1.png) no-repeat 9% 100%;
+}
+
+.pricing-section .single-table.active .top-content, .pricing-section .single-table:hover .top-content {
+    background: url(../../images/home/price-active.png);
+    transition: all 900ms ease;
+}
+.pricing-section .single-table{
+	background: url(../../images/home/price-bg.png);
+}
