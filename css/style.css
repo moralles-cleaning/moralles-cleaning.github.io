@@ -3286,11 +3286,11 @@ textarea{
 }
 .contact-section .contact-info{
   position: relative;
-  border: 1px solid #e5e5e5;
-  margin-left: -15px;
-  border-left: none;
+  /* border: 1px solid #e5e5e5; */
+  /* margin-left: -15px; */
+  /* border-left: none; */
   padding: 102px 0px 16px 73px;
-  height: 570px;
+  /* height: 570px; */
 }
 .contact-section .contact-info .single-info{
   position: relative;
